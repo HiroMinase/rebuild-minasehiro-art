@@ -16,10 +16,10 @@ export default function Home() {
       alt="トップ背景"
       width={1125}
       height={2000}
-      sizes="90vh"
+      sizes="95vh"
       style={{
         width: '100vw',
-        height: '90vh',
+        height: '95vh',
       }}
     />
     <div className={cormorantInfant.className}>
