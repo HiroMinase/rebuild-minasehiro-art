@@ -11,7 +11,7 @@ const notoSerifJp = Noto_Serif_JP({ weight: "400", subsets: ["latin"] });
 export default function Home() {
   return <main className={lora.className}>
     <Image
-      src="/assets/images/background.jpg"
+      src="/images/background.jpg"
       priority={true}
       alt="トップ背景"
       width={1125}
@@ -56,7 +56,7 @@ export default function Home() {
     </div>
     <div className={styles.albumIndex}>
       <Image
-        src="/assets/images/albums/blue/01.jpg"
+        src="/images/albums/blue/01.jpg"
         alt="アルバムサムネイル01"
         width={2000}
         height={1125}
