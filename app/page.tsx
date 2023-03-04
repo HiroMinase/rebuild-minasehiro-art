@@ -1,15 +1,12 @@
-import { Cormorant_Infant, Lora, Klee_One, Noto_Serif_JP, Shippori_Mincho } from "@next/font/google";
+import { Cormorant_Infant, Lora, Noto_Serif_JP } from "@next/font/google";
 
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/root.module.scss";
 
 const cormorantInfant = Cormorant_Infant({ weight: "300", subsets: ["latin"] });
-const cormorantInfant_bold = Cormorant_Infant({ weight: "600", subsets: ["latin"] });
 const lora = Lora({ weight: "400", subsets: ["latin"] });
-const kleeOne = Klee_One({ weight: "400", subsets: ["latin"] });
 const notoSerifJp = Noto_Serif_JP({ weight: "400", subsets: ["latin"] });
-const shipporiMincho = Shippori_Mincho({ weight: "400", subsets: ["latin"] });
 
 export default function Home() {
   return <main className={lora.className}>
