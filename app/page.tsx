@@ -50,7 +50,7 @@ export default function Home() {
         </div>
         <hr className={styles.divider} />
         <div className={styles.description}>
-          Engineer. Photographer. Born in Tamano City, Okayama Prefecture in 1995. In 2016, I encountered Lovegraph Academy, a photography school operated by Lovegraph Co., Ltd., and started taking photography seriously. I was inspired by the founder Junpei Komashita's ideas and started working as a Lovegraph photographer (Lovegrapher) while also working as a Lovegraph engineer despite having no prior programming experience. I officially joined the company as a full-time engineer in 2019 and have been working there since then.
+          Engineer. Photographer. Born in Tamano City, Okayama Prefecture in 1995. In 2016, I encountered Lovegraph Academy, a photography school operated by Lovegraph Co., Ltd., and started taking photography seriously. I was inspired by the founder Junpei Komashita’s ideas and started working as a Lovegraph photographer (Lovegrapher) while also working as a Lovegraph engineer despite having no prior programming experience. I officially joined the company as a full-time engineer in 2019 and have been working there since then.
         </div>
       </div>
     </div>
