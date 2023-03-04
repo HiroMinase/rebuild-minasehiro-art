@@ -1,0 +1,142 @@
+hr.divider {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+}
+
+.headline {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+
+  .name {
+    color: white;
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin-bottom: 16px;
+  }
+
+  .propaty {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+}
+
+.intro {
+  width: 80%;
+  margin: 30px auto;
+
+  .name {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    margin-top: 10px;
+  }
+
+  .description {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 2.4;
+    color: black;
+    margin-bottom: 20px;
+  }
+}
+
+.albumIndex {
+  width: 100%;
+  text-align: center;
+
+  img.albumThumbnail {
+    margin-bottom: 10px;
+  }
+}
+
+.topicIndex {
+  width: 80%;
+  margin: 30px auto;
+
+  .topicSectionLabel {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: black;
+  }
+
+  .topicItem {
+    margin: 30px auto;
+
+    .topicHeadline {
+      font-size: 14px;
+      letter-spacing: 1px;
+      color: black;
+      margin: 10px auto 5px;
+    }
+
+    .topicDescription {
+      font-size: 12px;
+      letter-spacing: 1px;
+      line-height: 2.4;
+      color: gray;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: white;
+  background-color: dimgray;
+
+  .name {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+
+  .snsLink {
+    width: 80%;
+    margin: 20px auto;
+
+    .snsIcon {
+      width: 10%;
+      border-radius: 8px;
+      margin-right: 30px;
+    }
+  }
+
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 80%;
+
+    .navigationItem {
+      width: 100%;
+      margin: 10px 0;
+      padding: 5px 10px;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-decoration: none;
+      border-bottom: 1px solid lightgray;
+      color: lightgray;
+    }
+  }
+
+  .copyright {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px 0;
+    color: lightgray;
+  }
+}
