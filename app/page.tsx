@@ -104,6 +104,18 @@ export default function Home() {
         className={styles.albumThumbnail}
       />
       <Image
+        src="/images/albums/snap/04.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
         src="/images/albums/snap/01.jpg"
         alt="アルバムサムネイル01"
         width={2000}
@@ -129,18 +141,6 @@ export default function Home() {
       />
       <Image
         src="/images/albums/portrait/03.jpg"
-        alt="アルバムサムネイル01"
-        width={2000}
-        height={1125}
-        sizes="90vw"
-        style={{
-          width: '90vw',
-          height: 'auto',
-        }}
-        className={styles.albumThumbnail}
-      />
-      <Image
-        src="/images/albums/snap/04.jpg"
         alt="アルバムサムネイル01"
         width={2000}
         height={1125}
