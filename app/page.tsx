@@ -56,7 +56,43 @@ export default function Home() {
     </div>
     <div className={styles.albumIndex}>
       <Image
+        src="/images/albums/snap/05.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
         src="/images/albums/blue/01.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
+        src="/images/albums/portrait/02.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
+        src="/images/albums/nature/02.jpg"
         alt="アルバムサムネイル01"
         width={2000}
         height={1125}
@@ -80,7 +116,79 @@ export default function Home() {
         className={styles.albumThumbnail}
       />
       <Image
+        src="/images/albums/trip/02.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
+        src="/images/albums/portrait/03.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
+        src="/images/albums/snap/04.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
+        src="/images/albums/snap/03.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
+        src="/images/albums/nature/04.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
         src="/images/albums/portrait/01.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
+        src="/images/albums/blue/02.jpg"
         alt="アルバムサムネイル01"
         width={2000}
         height={1125}
@@ -105,6 +213,42 @@ export default function Home() {
       />
       <Image
         src="/images/albums/trip/01.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
+        src="/images/albums/nature/03.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
+        src="/images/albums/snap/02.jpg"
+        alt="アルバムサムネイル01"
+        width={2000}
+        height={1125}
+        sizes="90vw"
+        style={{
+          width: '90vw',
+          height: 'auto',
+        }}
+        className={styles.albumThumbnail}
+      />
+      <Image
+        src="/images/albums/portrait/04.jpg"
         alt="アルバムサムネイル01"
         width={2000}
         height={1125}
@@ -168,7 +312,7 @@ export default function Home() {
             />
           </Link>
         </div>
-        <div className={styles.navigation}>
+        {/* <div className={styles.navigation}>
           <Link href="/" className={styles.navigationItem}>
             HOME
           </Link>
@@ -181,7 +325,7 @@ export default function Home() {
           <Link href="/about" className={styles.navigationItem}>
             ABOUT
           </Link>
-        </div>
+        </div> */}
         <div className={styles.copyright}>
           Copyright ©︎ 2018 Minase Hiro.
         </div>
