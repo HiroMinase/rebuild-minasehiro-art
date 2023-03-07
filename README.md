@@ -8,3 +8,8 @@ Next.js 13 を使ってみた。
 ```bash
 npm run dev
 ```
+
+### 関連
+
+Google Fonts
+https://fonts.google.com/?noto.script=Jpan
